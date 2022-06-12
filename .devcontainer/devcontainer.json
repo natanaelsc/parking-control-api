@@ -10,7 +10,7 @@
 		"github-cli": "latest"
 	},
 
-	"forwardPorts": [8080, 35730],
+	"forwardPorts": [8080, 35730, 5432],
 
 	"portsAttributes": {
 		"8080": {
@@ -19,10 +19,14 @@
 		},
 		"35730": {
 			"label": "LiveReload",
+			"onAutoForward": "ignore"
+		},
+		"5432": {
+			"label": "PostgreSQL",
 			"onAutoForward": "notify"
 		}
 	},
-  
+
 	"remoteUser": "vscode",
 
 	"postCreateCommand": "lsb_release -a && java -version && mvn -v",
