@@ -1,0 +1,22 @@
+[
+  {
+    "parkingSpotNumber": "205A",
+    "licensePlateCar": "RRS8561",
+    "brandCar": "Audi",
+    "modelCar": "Q5",
+    "colorCar": "Black",
+    "responsibleName": "Carlos Daniel",
+    "apartment": "209",
+    "block": "B"
+  },
+  {
+    "parkingSpotNumber": "205B",
+    "licensePlateCar": "TTPP456",
+    "brandCar": "Audi",
+    "modelCar": "Q5",
+    "colorCar": "Blue",
+    "responsibleName": "André Daniel",
+    "apartment": "205",
+    "block": "B"
+  }
+]
