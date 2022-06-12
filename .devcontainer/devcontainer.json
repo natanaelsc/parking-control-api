@@ -20,11 +20,15 @@
 		"github-cli": "latest"
 	},
 	
-	"forwardPorts": [8080],
+	"forwardPorts": [8080, 35730],
 
 	"portsAttributes": {
 		"8080": {
 			"label": "Application",
+			"onAutoForward": "notify"
+		},
+		"35730": {
+			"label": "LiveReload",
 			"onAutoForward": "notify"
 		}
 	},
