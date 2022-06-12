@@ -4,6 +4,7 @@
 ARG VARIANT="11-bullseye"
 FROM mcr.microsoft.com/vscode/devcontainers/java:0-${VARIANT}
 
+WORKDIR /home/java/app
 ################################################################################
 # Install prerequisites
 RUN apt update
