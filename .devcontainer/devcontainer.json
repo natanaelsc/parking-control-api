@@ -6,6 +6,15 @@
 	"service": "app",
 	"workspaceFolder": "/home/java/app",
 
+	"customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+				"vscjava.vscode-java-pack"
+			]
+		}
+	},
+
 	"features": {
 		"github-cli": "latest"
 	},
